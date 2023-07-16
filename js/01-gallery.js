@@ -24,7 +24,7 @@ function renderGallery() {
 
 function openModal(imgSource) {
   const modal = basicLightbox.create(`
-        <img src='${imgSource}' alt='Full-size Image'/>
+        <img src='${imgSource}' />
    `);
     modal.show();
     currentModal = modal;
