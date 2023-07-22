@@ -31,3 +31,6 @@ function renderGallery() {
     captionDelay: 250,
   });
 
+
+
+  
